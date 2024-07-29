@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Página web de PAUPIXEL, un artista que crea pinturas personalizadas.">
+	<meta name="keywords" content="arte, pinturas, personalizada, PAUPIXEL">
+	<meta name="author" content="PAUPIXEL">
+	<meta stylesheet" href="styles.css">
+	<title>Pinturas por PAUPIXEL</title>
+	<link rel="stylesheet" href="styles.css" > <!-- Enlace al archivo de estilos -->
+</head>
+<body>
+	<header>
+		<h1>Arte de <span>PAUPIXEL</span></h1>
+	</header>
+
+	<main>
+		<section>
+			<h2>¿En qué superficie quieres tú pintura?</h2>
+			<h3>Tamaños</h3>
+			<ul>
+				<li>8x10 centimetros</li>
+				<li>11x14 centimetros</li>
+				<li>16x20 centimetros</li>
+				<li>18x24 centimetros</li>
+				<li>24x36 centimetros</li>
+			</ul>
+	 			<!-- Aquí puedes agregar opciones de tamaños y superficies -->
+		</section>
+		<section>
+			<h2>Galería de Pinturas</h2>
+			<div class="gallery">
+				<img src="painting1.jpg" alt="Pintura 1">
+				<img src="painting2.jpg" alt="Pintura 2">
+				<img src="painting3.jpg" alt="Pintura 3">
+				<!-- Agrega más imágenes según sea necesario -->
+			</div>
+		</section>
+
+		<section>
+			<h2>Sobre PAUPIXEL</h2>
+			<p>Hola, soy PAUPIXEL, un artista dedicad a crear pinturas únicas y personalizadas. Cada obra de arte es creada con pasión y atención al detalle, asegurando que cada pieza sea especial y única.</p>
+		</section>
+
+		<section>
+			<h2>Contacto</h2>
+			<form class="contact-form" action="submit_form.php" method="post">
+				<label for="name">Nombre:</label>
+				<input type="text" id="name" name="name" required>
+				
+				<label for="email">Correo Electrónico:</label>
+				<input type="email" id="email" name="email" required>
+				
+				<label for="message">Mensaje:</label>
+				<textarea id="message" name="message" rows="4" required></textarea>
+				
+				<button type="submit">Enviar</button>
+			</form>
+		</section>
+	</main>
+</body>
+</html>
