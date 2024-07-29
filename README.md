@@ -1,2 +1,2 @@
-# ARTE-DE-PAUPIXEL
+# PAUPIXEL
 Arte Personalizado en Acrílico de tu Mascota
